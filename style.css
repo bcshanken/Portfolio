@@ -1,4 +1,44 @@
 .activepage {
-    font-weight: bold;
-    color: blueviolet;
+  font-weight: bold;
+  color: blueviolet;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #ccc;
+}
+.content {
+  flex: 1 0 auto;
+}
+.footer {
+  flex-shrink: 0;
+  background-color: #666;
+  min-height: 40px;
+  color: white;
+  padding: 20px;
+}
+.card{
+    background-color:white;
+}
+.cardhead {
+  font-size: 36px;
+  color: #33CCC;
+  background-color: white;
+  padding: 20px;
+}
+.cardbody {
+  background-color: white;
+  padding: 20px;
+}
+
+hr {
+  border-top: 1px solid grey;
+  margin: 0px 20px;
+  padding:  0px 20px;
+  background-color: white;
 }
