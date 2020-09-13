@@ -24,21 +24,35 @@ body {
 }
 .card{
     background-color:white;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-left:30px;
+    padding-right:30px;
 }
 .cardhead {
-  font-size: 36px;
-  color: #33CCC;
-  background-color: white;
-  padding: 20px;
+  font-size: 36px;  
+  padding: 20px 0 0 0px;
+}
+.cardhead h2 {
+    color:teal;
 }
 .cardbody {
-  background-color: white;
-  padding: 20px;
+  padding: 10px 0 0 0px;
 }
 
 hr {
   border-top: 1px solid grey;
   margin: 0px 20px;
   padding:  0px 20px;
-  background-color: white;
+}
+.h5, h5 {
+    background-color: teal;
+    color: white;
+    padding:10px 5px;
+}
+
+.headshot {
+    width: 33%;
+    height: auto;
+    margin: 0 15px 0px 0;
 }
