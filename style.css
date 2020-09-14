@@ -90,3 +90,18 @@ hr {
   font-style: italic;
   text-align: center;
   }
+
+  .follow {
+    float: left;
+    font-weight: bold;
+  }
+  .socialicon {
+    height: 30px;
+    width: auto;
+    float: left;
+    margin-left: 10px;
+  }
+  .copywrite {
+    text-align: right;
+
+  }
