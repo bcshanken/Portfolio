@@ -12,6 +12,12 @@ body {
 .content {
   flex: 1 0 auto;
 }
+
+.navbar {
+  border-bottom-style: solid;
+  border-bottom-color: teal;
+  border-bottom-width: 5px;
+}
 .footer {
   flex-shrink: 0;
   background-color: #666;
@@ -82,7 +88,7 @@ hr {
   .portfolioimg {
     width: 100%;
     height: auto;
-    margin: 10px;
+    margin: 10px 0px;
     float: left;
   }
 
