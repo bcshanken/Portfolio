@@ -63,6 +63,10 @@ hr {
     border-color: teal;
     border-radius: 0px;
     padding: 10px;
-    margin: ;
   }
-  
+
+  .btn-primary:hover {
+      background-color: white;
+      color:teal;
+      border-color:teal
+  }
