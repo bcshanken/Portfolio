@@ -28,6 +28,7 @@ body {
     margin-left: 20px;
     padding-left:30px;
     padding-right:30px;
+    margin-bottom: 20px;
 }
 .cardhead {
   font-size: 36px;  
@@ -37,7 +38,7 @@ body {
     color:teal;
 }
 .cardbody {
-  padding: 10px 0 0 0px;
+  padding: 10px 0 10px 0px;
 }
 
 hr {
@@ -56,3 +57,12 @@ hr {
     height: auto;
     margin: 0 15px 0px 0;
 }
+
+.btn-primary {
+    background-color: teal;
+    border-color: teal;
+    border-radius: 0px;
+    padding: 10px;
+    margin: ;
+  }
+  
