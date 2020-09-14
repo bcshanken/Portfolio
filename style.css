@@ -7,6 +7,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #ccc;
+  background-image: url(Assets/Images/backgroundimg.png)
 }
 .content {
   flex: 1 0 auto;
@@ -28,7 +29,7 @@ body {
     padding-left:30px;
     padding-right:30px;
     margin-bottom: 20px;
-    margin-top:20px;
+    margin-top:50px;
 }
 .cardhead {
   font-size: 36px;  
