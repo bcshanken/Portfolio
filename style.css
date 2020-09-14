@@ -36,6 +36,7 @@ body {
     padding-right:30px;
     margin-bottom: 20px;
     margin-top:50px;
+    width: auto;
 }
 .cardhead {
   font-size: 36px;  
@@ -111,4 +112,26 @@ hr {
   .copywrite {
     text-align: right;
 
+  }
+
+  @media screen and (max-width:768px) {
+    .copywrite {
+      text-align: center;
+      float:none;
+      
+    }
+    .socialcontainer {
+      display: block;
+      margin-left: auto;
+     margin-right: auto;
+    }
+    .socialicon {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .follow {
+      float: none;
+      text-align: center;
   }
