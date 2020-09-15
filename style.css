@@ -94,19 +94,23 @@ hr {
   }
 
   .portfoliotext {
-    font-size: small;
+  font-size: small;
   font-style: italic;
   text-align: center;
   }
 
-  .follow {
+  .socialcontainer {
     float: left;
+    margin: 0 15px;
+  }
+  .follow {
+  
     font-weight: bold;
   }
   .socialicon {
     height: 30px;
     width: auto;
-    float: left;
+    
     margin-left: 10px;
   }
   .copywrite {
@@ -131,14 +135,12 @@ hr {
       
     }
     .socialcontainer {
-      display: block;
-      margin-left: auto;
-     margin-right: auto;
+      float: none;
+      text-align: center;
+      justify-content: center;
     }
     .socialicon {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
+      float: none;
     }
 
     .follow {
