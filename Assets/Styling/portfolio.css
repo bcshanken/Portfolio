@@ -1,0 +1,21 @@
+/* This sheet is styling specific to the Porfolio Page */
+
+/* Styling of the images */
+.portfolioimgcell {
+    float:left;
+  }
+
+  .portfolioimg {
+    width: 100%;
+    height: auto;
+    margin: 10px 0px;
+    float: left;
+  }
+
+  /* Image Description Styling */
+
+  .portfoliotext {
+  font-size: small;
+  font-style: italic;
+  text-align: center;
+  }

@@ -1,3 +1,4 @@
+/* This sheet is styling Generic to the whole site */
 
 html,
 body {
@@ -7,52 +8,17 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #ccc;
-  background-image: url(Assets/Images/ignasi_pattern_s.png)
+  background-image: url(Assets/Images/ignasi_pattern_s.png);
 }
 .content {
   flex: 1 0 auto;
 }
 
+/* Navbar Styling */
 .navbar {
   border-bottom-style: solid;
   border-bottom-color: teal;
   border-bottom-width: 5px;
-}
-.footer {
-  flex-shrink: 0;
-  background-color: #666;
-  min-height: 40px;
-  color: white;
-  padding: 20px;
-  border-top-style: solid;
-  border-top-color: teal;
-  border-top-width: 5px;
-}
-.card{
-    background-color:white;
-    margin-right: 20px;
-    margin-left: 20px;
-    padding-left:30px;
-    padding-right:30px;
-    margin-bottom: 50px;
-    margin-top:50px;
-    width: auto;
-}
-.cardhead {
-  font-size: 36px;  
-  padding: 20px 0 0 0px;
-}
-.cardhead h2 {
-    color:teal;
-}
-.cardbody {
-  padding: 10px 0 10px 0px;
-}
-
-hr {
-  border-top: 1px solid grey;
-  margin: 0px 20px;
-  padding:  0px 20px;
 }
 .navbar-brand {
     background-color: teal;
@@ -61,12 +27,6 @@ hr {
 
 .navbar-light .navbar-brand {
   color:white;
-}
-
-.headshot {
-    width: 33%;
-    height: auto;
-    margin: 0 15px 0px 0;
 }
 
 .btn-primary {
@@ -82,24 +42,47 @@ hr {
       border-color:teal
   }
 
-  .portfolioimgcell {
-    float:left;
-  }
+/* Content Card Styling */
+.card {
+  background-color: white;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  width: auto;
+}
+.cardhead {
+  font-size: 36px;
+  padding: 20px 0 0 0px;
+}
+.cardhead h2 {
+  color: teal;
+}
+.cardbody {
+  padding: 10px 0 10px 0px;
+}
 
-  .portfolioimg {
-    width: 100%;
-    height: auto;
-    margin: 10px 0px;
-    float: left;
-  }
+hr {
+  border-top: 1px solid grey;
+  margin: 0px 20px;
+  padding: 0px 20px;
+}
 
-  .portfoliotext {
-  font-size: small;
-  font-style: italic;
-  text-align: center;
-  }
-
-  .socialcontainer {
+/* Footer Styling*/
+.footer {
+  flex-shrink: 0;
+  background-color: #666;
+  min-height: 40px;
+  color: white;
+  padding: 20px;
+  border-top-style: solid;
+  border-top-color: teal;
+  border-top-width: 5px;
+}
+/* Social Media inside footer styling */
+.socialcontainer {
     float: left;
     margin: 0 15px;
   }
@@ -117,18 +100,8 @@ hr {
     text-align: right;
 
   }
-
-  .published {
-    color: teal;
-    font-weight: 600;
-  }
-
-  .published:Hover {
-    font-weight: 600;
-    color: rgb(1, 78, 78)
-  }
-
-  @media screen and (max-width:768px) {
+ /* Mobiel Stying */
+ @media screen and (max-width:768px) {
     .copywrite {
       text-align: center;
       float:none;

@@ -1,0 +1,18 @@
+/* This sheet is styling specific to the About me Page */
+
+/* headshot image styling */
+.headshot {
+    width: 33%;
+    height: auto;
+    margin: 0 15px 0px 0;
+}
+/* Published Resach Hyper link Styling */
+.published {
+    color: teal;
+    font-weight: 600;
+  }
+
+  .published:Hover {
+    font-weight: 600;
+    color: rgb(1, 78, 78)
+  }
