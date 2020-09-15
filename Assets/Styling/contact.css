@@ -1,0 +1,16 @@
+/* This sheet is styling specific to the Contact Page */
+
+/* Styling of the Submit Button */
+
+.btn-primary {
+    background-color: teal;
+    border-color: teal;
+    border-radius: 0px;
+    padding: 10px;
+  }
+
+  .btn-primary:hover {
+      background-color: white;
+      color:teal;
+      border-color:teal
+  }

@@ -23,24 +23,20 @@ body {
 .navbar-brand {
     background-color: teal;
     padding:10px 5px;
+    border-style: solid;
+    border-color: teal;
+    border-width: 1px;
+}
+.navbar-brand:hover {
+    color: teal !important; 
+    background-color: white;
 }
 
 .navbar-light .navbar-brand {
   color:white;
 }
 
-.btn-primary {
-    background-color: purple;
-    border-color: teal;
-    border-radius: 0px;
-    padding: 10px;
-  }
 
-.navbar-brand:hover {
-      background-color: white;
-      color:teal;
-      border-color:teal
-  }
 
 /* Content Card Styling */
 .card {
