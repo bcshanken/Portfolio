@@ -7,7 +7,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #ccc;
-  background-image: url(Assets/Images/backgroundimg.png)
+  background-image: url(Assets/Images/ignasi_pattern_s.png)
 }
 .content {
   flex: 1 0 auto;
@@ -112,6 +112,16 @@ hr {
   .copywrite {
     text-align: right;
 
+  }
+
+  .published {
+    color: teal;
+    font-weight: 600;
+  }
+
+  .published:Hover {
+    font-weight: 600;
+    color: rgb(1, 78, 78)
   }
 
   @media screen and (max-width:768px) {
