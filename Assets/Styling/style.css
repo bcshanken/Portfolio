@@ -3,12 +3,14 @@
 html,
 body {
   height: 100%;
+  color:white;
 }
 body {
   display: flex;
   flex-direction: column;
   background-color: #ccc;
-  background-image: url(../Images/ignasi_pattern_s.png);
+  background-image: url(../Images/black-rock-tiles.jpg);
+  background-size: contain;
 }
 .content {
   flex: 1 0 auto;
@@ -17,30 +19,34 @@ body {
 /* Navbar Styling */
 .navbar {
   border-bottom-style: solid;
-  border-bottom-color: teal;
-  border-bottom-width: 5px;
+  border-bottom-color:  rgb(66, 18, 143) ; 
+  border-bottom-width: 3px; 
+  color: black;
+  background-color:   rgba(255, 255, 255, 0.6) ;
 }
+
 .navbar-brand {
-    background-color: teal;
+    background-color: rgba(255, 255, 255, 0.4) ;
     padding:10px 5px;
     border-style: solid;
-    border-color: teal;
+    border-color: #9370db ;
     border-width: 1px;
+    border-radius: 5px;
+    color:  rgb(66, 18, 143)!important; 
 }
 .navbar-brand:hover {
-    color: teal !important; 
-    background-color: white;
+    color: #9370db !important; 
+    background-color: whitesmoke;
 }
 
-.navbar-light .navbar-brand {
-  color:white;
+#navLink {
+  color: black;
 }
-
 
 
 /* Content Card Styling */
 .card {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.4);
   margin-right: 20px;
   margin-left: 20px;
   padding-left: 30px;
@@ -54,14 +60,14 @@ body {
   padding: 20px 0 0 0px;
 }
 .cardhead h2 {
-  color: teal;
+  color: rgb(66, 18, 143);
 }
 .cardbody {
   padding: 10px 0 10px 0px;
 }
 
 hr {
-  border-top: 1px solid grey;
+  border-top: 1px solid rgb(66, 18, 143);
   margin: 0px 20px;
   padding: 0px 20px;
 }

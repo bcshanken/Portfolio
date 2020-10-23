@@ -23,21 +23,29 @@
   </head>
   <body>
     <!--Nav Bar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg" id="navBar">
       <a class="navbar-brand" href="index.html">Brian Shanken</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" id="navLink" href="contact.html">Contact</a>
           </li>
-          <li class="nav-item  active">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          <li class="nav-item active">
+            <a class="nav-link" id="navLink" href="portfolio.html">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html">About</a>
+            <a class="nav-link" id="navLink" href="index.html">About</a>
           </li>
         </ul>
       </div>
@@ -101,25 +109,31 @@
         </div>
       </div>
     </div>
-  <!--Footer-->
-  <footer class="footer">
-    <div class="row">
-      <div class="col-sm-6">
-        <div class="row socialcontainer">
-        <p class="follow">Follow Me:</p>
-        <a href="https://www.linkedin.com/in/brian-shanken/" target="_blank"><img
-            src="Assets/Images/linkid_in_icon_60x60.png" class="socialicon" alt="linkedIn icon" /></a>
-        <a href="https://github.com/bcshanken" target="_blank"><img src="Assets/Images/github_icon_60x60.png"
-            class="socialicon" alt="github icon"/></a>
+    <!--Footer-->
+    <footer class="footer">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="row socialcontainer">
+            <p class="follow">Follow Me:</p>
+            <a href="https://www.linkedin.com/in/brian-shanken/" target="_blank"
+              ><img
+                src="Assets/Images/linkid_in_icon_60x60.png"
+                class="socialicon"
+                alt="linkedIn icon"
+            /></a>
+            <a href="https://github.com/bcshanken" target="_blank"
+              ><img
+                src="Assets/Images/github_icon_60x60.png"
+                class="socialicon"
+                alt="github icon"
+            /></a>
+          </div>
+        </div>
+        <div class="col-sm-6 copywrite">
+          <p>&#169; Copyright 2020 Brian Shanken</p>
+        </div>
       </div>
-    </div>
-      <div class="col-sm-6 copywrite">
-        <p>&#169; Copyright 2020 Brian Shanken</p>
-      </div>
-    </div>
-
-    
-  </footer>
+    </footer>
     <!--Scripts-->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

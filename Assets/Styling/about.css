@@ -5,6 +5,7 @@
     width: 33%;
     height: auto;
     margin: 0 15px 0px 0;
+    border-radius: 50%;
 }
 /* Published Resach Hyper link Styling */
 .published {

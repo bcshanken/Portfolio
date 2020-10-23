@@ -4,7 +4,7 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
-  <html class="no-js" lang="en">
+<html class="no-js" lang="en">
   <!--<![endif]-->
   <head>
     <meta charset="utf-8" />
@@ -19,26 +19,36 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="Assets/Styling/style.css"/>
-    <link rel="stylesheet" href="Assets/Styling/contact.css"/>
+    <link rel="stylesheet" href="Assets/Styling/style.css" />
+    <link rel="stylesheet" href="Assets/Styling/contact.css" />
   </head>
   <body>
     <!--Nav Bar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light" id="navBar">
       <a class="navbar-brand" href="index.html">Brian Shanken</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" href="contact.html">Contact</a>
+            <a class="nav-link active" id="navLink" href="contact.html"
+              >Contact</a
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
+            <a class="nav-link" id="navLink" href="portfolio.html">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html">About</a>
+            <a class="nav-link" id="navLink" href="index.html">About</a>
           </li>
         </ul>
       </div>
@@ -50,48 +60,65 @@
           <div class="cardhead col-xs-12">
             <h2>Contact Me</h2>
           </div>
-          <hr/>
+          <hr />
           <div class="container cardbody">
-          <form>
-            <div class="form-group">
+            <form>
+              <div class="form-group">
                 <label for="ContactName">Name</label>
-                <input type="text" class="form-control" id="ContactName">
-            </div> 
-            <div class="form-group">
-              <label for="InputEmail">Email address</label>
-              <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp">
-              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-            </div> 
-            
-            <div class="form-group">
-                <label for="FormMessage">Message</label>
-                <textarea class="form-control" id="FormMessage" rows="3"></textarea>
+                <input type="text" class="form-control" id="ContactName" />
               </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
-        </div>
-        </div>
-      </div>
-    </div>
-  <!--Footer-->
-  <footer class="footer">
-    <div class="row">
-      <div class="col-sm-6">
-        <div class="row socialcontainer">
-        <p class="follow">Follow Me:</p>
-        <a href="https://www.linkedin.com/in/brian-shanken/" target="_blank"><img
-            src="Assets/Images/linkid_in_icon_60x60.png" class="socialicon" alt="linkedIn icon"/></a>
-        <a href="https://github.com/bcshanken" target="_blank"><img src="Assets/Images/github_icon_60x60.png"
-            class="socialicon"  alt="Git Hub icon"/></a>
-      </div>
-    </div>
-      <div class="col-sm-6 copywrite">
-        <p>&#169; Copyright 2020 Brian Shanken</p>
-      </div>
-    </div>
+              <div class="form-group">
+                <label for="InputEmail">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="InputEmail"
+                  aria-describedby="emailHelp"
+                />
+                <small id="emailHelp" class="form-text text-muted"
+                  >We'll never share your email with anyone else.</small
+                >
+              </div>
 
-
-  </footer>
+              <div class="form-group">
+                <label for="FormMessage">Message</label>
+                <textarea
+                  class="form-control"
+                  id="FormMessage"
+                  rows="3"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Footer-->
+    <footer class="footer">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="row socialcontainer">
+            <p class="follow">Follow Me:</p>
+            <a href="https://www.linkedin.com/in/brian-shanken/" target="_blank"
+              ><img
+                src="Assets/Images/linkid_in_icon_60x60.png"
+                class="socialicon"
+                alt="linkedIn icon"
+            /></a>
+            <a href="https://github.com/bcshanken" target="_blank"
+              ><img
+                src="Assets/Images/github_icon_60x60.png"
+                class="socialicon"
+                alt="Git Hub icon"
+            /></a>
+          </div>
+        </div>
+        <div class="col-sm-6 copywrite">
+          <p>&#169; Copyright 2020 Brian Shanken</p>
+        </div>
+      </div>
+    </footer>
     <!--Scripts-->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
