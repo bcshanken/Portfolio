@@ -9,11 +9,16 @@
 }
 /* Published Resach Hyper link Styling */
 .published {
-    color: teal;
+    color: rgb(66, 18, 143);
     font-weight: 600;
   }
 
   .published:Hover {
     font-weight: 600;
-    color: rgb(1, 78, 78)
+    color: rgb(134, 62, 192);
+  }
+
+  .portfolioLink {
+    color: rgb(66, 18, 143);
+    text-align: center;
   }

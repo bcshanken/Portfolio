@@ -75,13 +75,13 @@ hr {
 /* Footer Styling*/
 .footer {
   flex-shrink: 0;
-  background-color: #666;
+  background-color:  rgba(255, 255, 255, 0.6) ;
   min-height: 40px;
-  color: white;
+  color:black;
   padding: 20px;
   border-top-style: solid;
-  border-top-color: teal;
-  border-top-width: 5px;
+  border-top-color: rgb(66, 18, 143);
+  border-top-width: 3px;
 }
 /* Social Media inside footer styling */
 .socialcontainer {
