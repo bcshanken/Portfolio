@@ -16,16 +16,20 @@
 
   .portfoliotext {
   font-size: small;
-  font-style: italic;
+  /* font-style: italic; */
   text-align: center;
+  margin-bottom: 5px;
   }
 
   #portfolioLink{
-    color: rgb(66, 18, 143);
+    color: black;
     text-align: center;
+    font-weight: 600;
+    margin-bottom: 5px;
     
   }
 
   #portfolioLink{
-    color: rgb(134, 62, 192);
+    color: rgb(66, 18, 143);
+    font-weight: 600;
   }

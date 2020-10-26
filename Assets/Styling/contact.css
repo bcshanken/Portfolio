@@ -3,14 +3,24 @@
 /* Styling of the Submit Button */
 
 .btn-primary {
-    background-color: teal;
-    border-color: teal;
+    background-color: rgb(66, 18, 143);
+    border-color: rgb(66, 18, 143);
     border-radius: 0px;
     padding: 10px;
   }
 
   .btn-primary:hover {
       background-color: white;
-      color:teal;
-      border-color:teal
+      color:rgb(66, 18, 143);
+      border-color:rgb(66, 18, 143);
   }
+  #link {
+    color: rgb(66, 18, 143);
+    font-weight: 600;
+  }
+
+  #link:Hover {
+    font-weight: 600;
+    color: rgb(134, 62, 192);
+  }
+  
