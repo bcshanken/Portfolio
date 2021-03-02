@@ -3,6 +3,7 @@
 /* Styling of the images */
 .portfolioimgcell {
     float:left;
+    /* height: 250px; */
   }
 
   .portfolioimg {
@@ -32,4 +33,7 @@
   #portfolioLink{
     color: rgb(66, 18, 143);
     font-weight: 600;
+  }
+  .imageblock{
+    height:230px;
   }

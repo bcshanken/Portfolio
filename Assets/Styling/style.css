@@ -9,7 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #ccc;
-  background-image: url(../Images/black-rock-tiles.jpg);
+  background-image: url(../Images/backgroundTilesMin.jpg);
   background-size: contain;
 }
 .content {
