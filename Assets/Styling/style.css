@@ -3,7 +3,7 @@
 html,
 body {
   height: 100%;
-  color:white;
+  color:black;
 }
 body {
   display: flex;
@@ -64,6 +64,10 @@ body {
 }
 .cardbody {
   padding: 10px 0 10px 0px;
+}
+
+h3 {
+  color: rgb(66, 18, 143);
 }
 
 hr {
